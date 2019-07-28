@@ -1,0 +1,454 @@
+body {
+    background-color: #00211D;
+    margin: 0;
+}
+.backgroundimg {
+    background-image: url("../images/GreenFeathersSmall.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 900px;
+    margin: 0px auto;
+    border-bottom: 4px solid #d7a94e;
+}
+.grid {
+    max-width: 800px;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "leftContent content content"
+    ;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sideContent {
+    grid-area: leftContent;
+}
+.left {
+    max-width: 250px;
+    text-align: center;
+    padding: 30px 30px 50px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 15px 15px;
+}
+#PhotoJennifer {
+    width: 200px;
+    margin-left: 10px;
+}
+ul {
+    text-align: left;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #FCE0A5;
+    margin-top: 20px;
+}
+.grid li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #FCE0A5;
+    padding-bottom: 5px;
+}
+#LinkedIn {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    display: inline-block;
+    background:transparent url('../images/GoldLinkedIn.png') center top no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+    transform: scale(1,1);
+}
+#LinkedIn:hover {
+    background-image: url('../images/GoldLinkedIn2.png');
+    background-size: cover;
+    transform: scale(1.2,1.2);
+ }
+#behance {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    display: inline-block;
+    background:transparent url('../images/GoldBehance.png') center top no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+    transform: scale(1,1);
+}
+#behance:hover {
+    background-image: url('../images/GoldBehance2.png');
+    background-size: cover;
+    transform: scale(1.2,1.2);
+}
+#dribbble {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    display: inline-block;
+    background:transparent url('../images/GoldDribbble.png') center top no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease;
+    transform: scale(1,1);
+}
+#dribbble:hover {
+    background-image: url('../images/GoldDribbble2.png');
+    background-size: cover;
+    transform: scale(1.2,1.2);
+}
+.content {
+    grid-area: content;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.right {
+    padding-left: 15px;
+}
+#Name {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.grid p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #FCE0A5;
+    font-size: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 50px;
+    line-height: 1.5;
+}
+.case-study {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #00483E;
+    padding-top: 20px;
+}
+.case-study-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+.jenaccordian {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.jen-card {
+    border: none;
+    border-radius: 0px;
+}
+.jen-card-header {
+    background-color: #00211D;
+    border-bottom: 1px solid #CD8B44;
+    margin-bottom: 0px !important;
+}
+.jen-card-header:first-child {
+    border-radius: 0px;
+}
+.jen-card-header h2 button {
+    color: #FCE0A5;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.jen-card-header h2 button:hover {
+    color: #CD8B44;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.jen-card-body {
+    background-color: #00483E;
+}
+#HomepageRedesign {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.case-study p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #FCE0A5;
+    font-size: 20px;
+    width: 100%;
+    line-height: 1.5;
+}
+h3 {
+    color: #FCE0A5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+h3 a{
+    text-decoration: none;
+    color: #FCE0A5;
+}
+h3 a:hover {
+    color: #CD8B44;
+}
+#DTPC_current_site {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#CompetitiveAnalysis {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#PieChart {
+    width: 49%;
+    margin-bottom: 15px;
+}
+#BarGraph {
+    width: 49%;
+    margin-bottom: 15px;
+}
+#Persona {
+    width: 50%;
+    float: left;
+    margin-right: 33px;
+}
+.case-study li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #FCE0A5;
+    font-size: 20px;
+    width: 100%;
+    line-height: 1.5;
+}
+#StoryBoard {
+    width: 100%;
+}
+.small-grid {
+    max-width: 800px;
+    height: 450px;
+    display: grid;
+    grid-template-rows: 14% 80%;
+    grid-template-columns: 43% 25% 25%;
+    grid-template-areas:
+    'gridhometitle griddonatetitle gridtrusttitle'
+    'gridHome griddonate gridtrust'
+    ;
+}
+.gridhometitle {
+    grid-area: gridhometitle;
+}
+.griddonatetitle {
+    grid-area: griddonatetitle;
+}
+.gridtrusttitle {
+    grid-area: gridtrusttitle;
+}
+.gridhome {
+    grid-area: gridHome;
+}
+#sketch-homepage {
+    width: 60%;
+    vertical-align: top;
+}
+#sketch-mobile-homepage {
+    width: 29%;
+}
+.griddonate {
+    grid-area: griddonate;
+}
+#sketch-donate {
+    width: 95%;
+}
+.gridtrust {
+    grid-area: gridtrust;
+}
+#sketch-whytrustus {
+    width: 95%;
+}
+#style {
+    width: 73%;
+}
+#oldLogo {
+    width: 18%;
+}
+#responsivedesign {
+    width: 100%;
+    padding-bottom: 15px;
+}
+#testing {
+    width: 50%;
+    float: right;
+}
+.mobile {
+    display: none;
+}
+@media only screen and (max-width: 500px) {
+    .desktop {
+        display: none;
+    }
+    body {
+        background-color: #00211D;
+    }
+    .mobile {
+        display: block;
+        text-align: center;
+    }
+    #PhotoJennifer {
+        width: 200px;
+        margin: 20px 0px 0px 0px;
+    }
+    .backgroundimg ul {
+        text-align: left;
+        max-width: 300px;
+        margin: 0 auto 20px auto;
+    }
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        color: #FCE0A5;
+    }
+    .backgroundimg li {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color: #FCE0A5;
+        padding-bottom: 5px;
+        max-width: 250px;
+    }
+    .case-study li {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color: #FCE0A5;
+        padding-bottom: 5px;
+    }
+    .case-study ul {
+        text-align: left;
+        margin: 0 auto 20px auto;
+    }
+    #LinkedIn {
+        width: 50px;
+        height: 50px;
+        margin: 0 5px;
+        display: inline-block;
+        background:transparent url('../images/GoldLinkedIn.png') center top no-repeat;
+        background-size: cover;
+        transition: all 0.3s ease;
+        transform: scale(1,1);
+    }
+    #LinkedIn:hover {
+        background-image: url('../images/GoldLinkedIn2.png');
+        background-size: cover;
+        transform: scale(1.2,1.2);
+    }
+    #behance {
+        width: 50px;
+        height: 50px;
+        margin: 0 5px;
+        display: inline-block;
+        background:transparent url('../images/GoldBehance.png') center top no-repeat;
+        background-size: cover;
+        transition: all 0.3s ease;
+        transform: scale(1,1);
+    }
+    #behance:hover {
+        background-image: url('../images/GoldBehance2.png');
+        background-size: cover;
+        transform: scale(1.2,1.2);
+    }
+    #dribbble {
+        width: 50px;
+        height: 50px;
+        margin: 0 5px;
+        display: inline-block;
+        background:transparent url('../images/GoldDribbble.png') center top no-repeat;
+        background-size: cover;
+        transition: all 0.3s ease;
+        transform: scale(1,1);
+    }
+    #dribbble:hover {
+        background-image: url('../images/GoldDribbble2.png');
+        background-size: cover;
+        transform: scale(1.2,1.2);
+    }
+    .links {
+        margin: 0 auto 20px auto;
+    }
+    #Name {
+        max-width: 300px;
+        margin-top: 0;
+    }
+    .paragraph {
+        text-align: left;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        color: #FCE0A5;
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+    #PieChart {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #BarGraph {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #Persona {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #sketch-homepage {
+        width: 60%;
+    }
+    #sketch-mobile-homepage {
+        width: 29%;
+    }
+    #sketch-donate {
+        width: 60%;
+    }
+    #sketch-whytrustus {
+        width: 60%;
+    }
+    #colors {
+        width: 100%;
+    }
+    #sandTexture {
+        width: 100%;
+    }
+    #cubano {
+        width: 100%;
+    }
+    #tradeGothic {
+        width: 100%;
+    }
+    #oldLogo {
+        width: 60%;
+    }
+    #logoRedesign {
+        width: 100%;
+    }
+    #testing {
+        width: 100%;
+        float: none;
+    }
+    .jen-card-body {
+        background-color: #00483E;
+        text-align: left;
+    }
+    .jen-card-header {
+        background-color: #00211D;
+        border-bottom: 1px solid #CD8B44;
+        margin-bottom: 0px !important;
+        text-align: left;
+    }
+    .jen-card-header h2 button {
+        color: #FCE0A5;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        letter-spacing: 2px;
+        text-align: left;
+    }
+    h3 {
+        margin: 20px 0px;
+    }
+}
